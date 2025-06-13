@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "Online Food Ordering App",
   "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build index.html --dist-dir dist",
-    "start": "node server.js",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "author": "Ayush Sinha",
@@ -19,7 +18,7 @@
     "babel-jest": "^29.7.0",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
-    "parcel": "^2.13.3",
+    "parcel": "^2.15.2",
     "process": "^0.11.10"
   },
   "dependencies": {
