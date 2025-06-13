@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Online Food Ordering App",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --dist-dir dist",
+    "start": "node server.js",
     "test": "jest"
   },
   "author": "Ayush Sinha",
