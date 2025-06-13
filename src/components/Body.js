@@ -2,7 +2,7 @@ import RestaurantCard, { withOfferLabel } from "./RestaurantCard";
 import { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router";
-import useOnlineStatus from "../utils/UseOnlineStatus";
+import useOnlineStatus from "../utils/useOnlineStatus";
 
 const Body = () => {
   // ------------------------------------------------------------
