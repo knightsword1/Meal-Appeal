@@ -9,7 +9,9 @@ const useRestaurantMenu = (resId) => {
   }, []);
 
   const fetchMenu = async () => {
-    const data = await fetch(`http://localhost:5000/menu/${resId}`);
+    const data = await fetch(
+      `https://meal-appeal-backend.onrender.com/menu/${resId}`
+    );
     const json = await data.json();
 
     setResInfo(json.data);

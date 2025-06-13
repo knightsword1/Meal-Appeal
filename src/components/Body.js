@@ -35,7 +35,7 @@ const Body = () => {
   }, []);
 
   const fetchData = async () => {
-    const data = await fetch("http://localhost:5000/swiggy");
+    const data = await fetch("https://meal-appeal-backend.onrender.com/swiggy");
 
     const json = await data.json();
     // console.log(json);
